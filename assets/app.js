@@ -159,6 +159,9 @@ function renderCertificateView(config, attendee) {
   var sigLabelEl = document.getElementById('cert-sig-label');
   if (sigLabelEl) sigLabelEl.textContent = config.issued_by_label || '';
 
+  var sealLabelEl = document.getElementById('cert-seal-label');
+  if (sealLabelEl) sealLabelEl.textContent = config.seal_label || '';
+
   // QR code: encode full certificate URL for one-tap verification
   if (config.show_qr !== false) {
     generateQR(config);

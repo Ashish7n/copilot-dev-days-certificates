@@ -316,16 +316,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 4px;
 }
 
-/* Date and signature name: thin rule above for formal document feel */
 .cert-date {
   font-family: var(--font-body);
   font-size: 0.9rem;
   font-weight: 600;
   color: var(--text-color);
-  padding-top: 5px;
-  border-top: 1px solid rgba(26, 46, 74, 0.22);
+  margin: 0;
 }
 
 .cert-seal {
@@ -348,7 +347,9 @@ body {
   color: var(--text-color);
   margin: 0;
   padding-top: 5px;
-  border-top: 1px solid rgba(26, 46, 74, 0.22);
+  border-top: 1.5px solid rgba(26, 46, 74, 0.3);
+  width: 100%;
+  text-align: center;
 }
 
 .cert-footer-label {
@@ -357,6 +358,15 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--secondary-color);
+}
+
+.cert-seal-label {
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  font-style: italic;
+  letter-spacing: 0.06em;
+  color: var(--secondary-color);
+  margin: 0;
 }
 
 /* QR code: centered inline block after description text */

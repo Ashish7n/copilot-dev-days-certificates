@@ -1,8 +1,8 @@
 {
-  "org_name": "Acme Workshop Co.",
+  "org_name": "Github Copilot Dev Days 2026 - Hyderabad",
   "org_tagline": "Learn. Build. Grow.",
-  "org_website": "https://example.com",
-  "logo_url": "assets/images/logo.png",
+  "org_website": "https://srisatyalokesh.is-a.dev/certificates",
+  "logo_url": "assets/images/copilot.png",
 
   "primary_color": "#1a2e4a",
   "secondary_color": "#c8a951",
@@ -17,15 +17,16 @@
   "font_heading": "'Playfair Display', Georgia, serif",
   "font_body": "'Lato', 'Helvetica Neue', sans-serif",
 
-  "certificate_title": "Certificate of Completion",
+  "certificate_title": "Certificate of Participation",
   "pre_name_text": "This is to certify that",
-  "post_name_text": "has successfully completed the workshop",
+  "post_name_text": "has successfully completed the Github Copilot Dev Days 2026 - Hyderabad workshop",
   "issued_by_label": "Authorized By",
   "date_label": "Date of Completion",
   "id_label": "Certificate ID",
-  "signature_name": "Dr. Jane Smith",
-  "signature_title": "Workshop Director",
+  "signature_name": "Satya K",
+  "signature_title": "Lead Engineer & Technical Architect",
 
+  "seal_label": "Certified",
   "show_qr": true,
   "show_description": true,
   "show_seal": true,
@@ -41,8 +42,8 @@
   "pdf_orientation": "landscape",
   "pdf_margin": 0,
 
-  "site_title": "Workshop Certificates — Acme Workshop Co.",
+  "site_title": "Workshop Certificates — Github Copilot Dev Days 2026 - Hyderabad",
   "og_image_url": "assets/images/og-default.png",
-  "twitter_handle": "@acmeworkshops",
+  "twitter_handle": "@CodeWithSatya",
   "template_version": "1.0.0"
 }
